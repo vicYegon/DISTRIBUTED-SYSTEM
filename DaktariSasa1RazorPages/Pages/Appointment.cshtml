@@ -1,0 +1,205 @@
+﻿@page
+@model DaktariSasa1RazorPages.Pages.AppointmentModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link href="../wwwroot/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../wwwroot/css/style.css">
+
+    <title>Book appointment</title>
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="index.html">DaktariSasa</a></h1>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+                    <li><a class="nav-link scrollto" href="#">Health digest</a></li>
+                    <li class="dropdown">
+                        <a href="#departments"><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Cardiologists Department</a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Surgery department</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#"></a>Categories</li>
+                                    <li><a href="#">Neurosurgeon</a></li>
+                                    <li><a href="#">Trauma & Orthopaedic surgeon </a></li>
+                                    <li><a href="#">Colon and rectal surgeons</a></li>
+                                    <li><a href="#">Plastic surgeon</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pediatricians</a></li>
+                            <li><a href="#">Psychiatrists</a></li>
+                            <li><a href="#">Gynacologists</a></li>
+                            <li><a href="#">Dentists</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="#">Register</a></li>
+                    <li><a class="nav-link scrollto" href="#">Login</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+            
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Make an Appointment</h2>
+                <p>Book an appointment from your a specialist of your choice</p>
+            </div>
+
+            <form action="" method="post" role="form" class="email-form">
+                <div class="row">
+                    <div class="col-md-4 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 form-group mt-3">
+                        <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-4 form-group mt-3">
+                        <select name="department" id="department" class="form-select">
+                            <!-- <option value="">---</option> -->
+                            <option value="Department 1">Orthopaedic</option>
+                            <option value="Department 2">General illness</option>
+                            <option value="Department 3">Infectious Diseases</option>
+                        </select>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-4 form-group mt-3">
+                        <select name="doctor" id="doctor" class="form-select">
+                            <!-- <option value="">---</option> -->
+                            <option value="Doctor 1">Walter Kianjui</option>
+                            <option value="Doctor 2">Ann Shah</option>
+                            <option value="Doctor 3">Mark Rotich</option>
+                        </select>
+                        <div class="validate"></div>
+                    </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Create Appointment</button></div>
+            </form>
+
+        </div>
+    </section>
+    <!-- End Appointment Section -->
+    <!-- start of footer section -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>DaktariSasa</h3>
+                        <strong>Phone:</strong> 0759695912<br>
+                        <strong>Email:</strong> vkosgei37@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Book appointment</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Register</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Doctor quotes</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Health care knowledge</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Don't miss out in the weekly DaktariSasa newsletter.</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>DaktariSasa 2023</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="#">vicYegon</a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</body>
+</html>

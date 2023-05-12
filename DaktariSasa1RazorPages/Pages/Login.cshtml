@@ -1,0 +1,40 @@
+﻿@page
+@model DaktariSasa1RazorPages.Pages.LoginModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../wwwroot/css/login-signup.css">
+    
+    <title>Login to DaktariSasa</title>
+
+</head>
+<body>
+    <div class="container">
+        <h2 class="login_header">Login</h2>
+        <div class="login_info">
+            <div class="info">
+                <p>Welcome back</p>
+            </div>
+
+            <div class="form_side">
+                <form class="login_form">
+                    <input type="text" name="email" placeholder="Email e.g someone@example.com">
+                    <input type="password" name="password" placeholder="Password">
+                </form>
+                <button>Login</button>
+                <p>    -----------     Or Login with   ----------   </p>
+                <br>
+                <button>Login with Google</button>
+                <button>Login with Facebook</button>
+                <p>New to DaktariSasa?<a href="../Pages/Register.cshtml">  Register Here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

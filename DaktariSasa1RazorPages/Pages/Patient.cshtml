@@ -1,0 +1,214 @@
+﻿@page
+@model IEnumerable<DaktariSasa1RazorPages.Models.Patient>
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../wwwroot/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+    <title>DaktariSasa_Patient's dashboard</title>
+
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="../wwwroot/css/patient.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <section class="sidebar">
+        <div class="nav-header">
+            <p class="logo"><span>Daktari</span>Sasa</p>
+            <!-- <img src="#" atl="image"> -->
+            <i class="bx bx-menu-alt-right btn-menu"></i>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <i class="bx bx-search search-btn"></i>
+                <input type="text" placeholder="search..." />
+                <span class="tooltip">Search</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="title">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-calendar-check'></i>
+                    <span class="title">Book appointment</span>
+                </a>
+                <span class="tooltip">Book appointment</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxl-blogger'></i>
+                    <span class="title">Health Digest</span>
+                </a>
+                <span class="tooltip">Health Digest</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-message-rounded-dots'></i>
+                    <span class="title">Messeges</span>
+                </a>
+                <span class="tooltip">Messages</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-star'></i>
+                    <span class="title">Feedback & Reviews</span>
+                </a>
+                <span class="tooltip">Feedback & Reviews</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-cog"></i>
+                    <span class="title">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+            <li>
+                <a href="../Pages/Index.cshtml">
+                    <i class="bx bx-home-alt-2"></i>
+                    <span class="title">Return Home</span>
+                </a>
+                <span class="tooltip">Return Home</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-log-out'></i>
+                    <span class="title">Logout</span>
+                </a>
+                <span class="tooltip">Logout</span>
+            </li>
+        </ul>
+        <div class="theme-wrapper">
+            <i class="bx bxs-moon theme-icon"></i>
+            <!-- <i class='bx bx-sun' ></i> -->
+            <p>Dark Theme</p>
+            <div class="theme-btn">
+                <span class="theme-ball"></span>
+            </div>
+        </div>
+    </section>
+    <section class="home">
+        <div class="home_header">
+            <p class="dashboard_content">My Dashboard</p>
+            <div class="home_buttons">
+                <button><i class='bx bxs-bell' style='color:#2f7ee7'></i></button>
+                <button><i class='bx bxs-user-circle' style='color:#2f7ee7'></i></button>
+                <!-- <button></button> -->
+            </div>
+        </div>
+        <div class="mains_boxes">
+            <div class="middle_content">
+                <div class="welcome_section">
+                    <h2>Welcome Victor, </h2>
+                    <p>
+                        A doctor once said, "...healing starts from the mind of the patient to God, then to him/her/it.
+                        A doctor/healthcare-specialist is just to help coz they have experience with such occurances and thus give
+                        temporary solutions based on the past results/findings."
+                    </p>
+                </div>
+                <div class="summary">
+                    <div class="summary_box" id="box1">
+                        <h1>27</h1>
+                        <p>Appointments</p>
+                    </div>
+                    <div class="summary_box" id="box2">
+                        <h1>2</h1>
+                        <p>Doctors</p>
+                    </div>
+                    <div class="summary_box" id="box3">
+                        <h1>7</h1>
+                        <p>Reviews</p>
+                    </div>
+                </div>
+                <div class="recent_doctors">
+                    <h4 class="recent_doctors_heading">Today's Doctors</h4>
+                    <div class="recent_doctors_boxes">
+                        <div class="box" id="first-doc">
+                            <img src="../wwwroot/img/doctors/doctors-3.jpg" alt="">
+                            <h6>Vic Yen</h6>
+                            <p>Cardiologist</p>
+                            <div class="ratings">x x x x x</div>
+                        </div>
+                        <div class="box" id="second-doc">
+                            <img src="../wwwroot/img/doctors/doctors-1.jpg" alt="">
+                            <h6>Dr. Victor Yegen</h6>
+                            <p>Pediatrician</p>
+                            <div class="ratings">x x x x x</div>
+                        </div>
+                        <div class="box" id="third-doc">
+                            <img src="../wwwroot/img/doctors/doctors-2.jpg" alt="">
+                            <h6>Dr. Aurorra Cheryl</h6>
+                            <p>Neurologist</p>
+                            <div class="ratings">x x x x x</div>
+                        </div>
+                        <div class="box" id="third-doc">
+                            <img src="../wwwroot/img/doctors/doctors-4.jpg" alt="">
+                            <h6>Dr. Annet Bridgit</h6>
+                            <p>Psychiatrist</p>
+                            <div class="ratings">x x x x x</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left_content">
+                <div class="calender">
+                    <h6>Planner...</h6>
+                    <div class="calender_section">
+                        <div class="calender_container">
+                            <p class="month_name" id="month_name">July</p>
+                            <p class="day_name" id="day_name">Monday</p>
+                            <p class="date_number" id="date_number">7</p>
+                            <p class="year" id="year">2012</p>
+                            <p class="day_time" id="day_time">10:00:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent_activity">
+                    <h6>Recent activity</h6>
+                    <div class="activity">
+                        <h5>Activity head</h5>
+                        <p>Description...</p>
+                    </div>
+                    <div class="activity">
+                        <h5>Activity head</h5>
+                        <p>Description...</p>
+                    </div>
+                    <div class="activity">
+                        <h5>Activity head</h5>
+                        <p>Description...</p>
+                    </div><div class="activity">
+                        <h5>Activity head</h5>
+                        <p>Description...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main_patients_page">
+    </div>
+
+    <script src="../wwwroot/js/patient.js"></script>
+</body>
+</html>

@@ -1,0 +1,910 @@
+﻿@page
+@model IndexModel
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>DaktariSasa</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../wwwroot/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../wwwroot/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!--  Main CSS File -->
+    <link href="../wwwroot/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex justify-content-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope"></i> <a href="mailto:vkosgei37@gmail.com">vkosgei37@gmail.com</a>
+                <i class="bi bi-phone"></i> +254 759695912
+            </div>
+            <div class="d-none d-lg-flex social-links align-items-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="index.html"><span>Daktari</span>Sasa</a></h1>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+                    <li><a class="nav-link scrollto" href="#">Health Digest</a></li>
+                    <li class="dropdown">
+                        <a href="#departments"><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Cardiologists Department</a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Surgery Department</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#"></a>Categories</li>
+                                    <li><a href="#">Neurosurgeons Department</a></li>
+                                    <li><a href="#">Trauma & Orthopaedic surgery Department</a></li>
+                                    <li><a href="#">Colon and rectal surgery Department</a></li>
+                                    <li><a href="#">Plastic surgery Department</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pediatricians Department</a></li>
+                            <li><a href="#">Psychiatrists Department</a></li>
+                            <li><a href="#">Gynacologists Department</a></li>
+                            <li><a href="#">Dentists Department</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="./signin.html">Register</a></li>
+                    <li><a class="nav-link scrollto" href="./patient.html">Login</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+            
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <h1>Welcome to DaktariSasa</h1>
+            <h2>We are a team of health care specialists here to help as quick as we can from wherever you are</h2>
+            <a href="#login" class="btn-get-started scrollto">How should we help?</a>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <h3>Why Choose DaktariSasa?</h3>
+                            <p>
+                                You don't have to travel anymore for every other health care service you
+                                would need. Join us now and save on time for medical services.
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-stretch">
+                        <div class="icon-boxes d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-receipt"></i>
+                                        <h4>Get to know more about health</h4>
+                                        <p>
+                                            <a href="#"></a>At health digest you get to find out your heath concers from articles written by
+                                            specialists. You don't have anything to loose to know more about how to keep you more healthy
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="fa-solid fa-calendar-check"></i>
+                                        <h4>Create your own appointment</h4>
+                                        <p>
+                                            Here at DaktariSasa, you can have a  one-on-one and face to face meeting at the comfort of your home.
+                                            Book an appointment either through call or video and get your concerns checked out.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="fa-solid fa-handshake"></i>
+                                        <h4>Trusted partners</h4>
+                                        <p>Find out more about your health care concerns by visiting premises of our trusted physical health care centers around you.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End .content-->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Why Us Section -->
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                        <a href="#"></a>
+                    </div>
+
+                    <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                        <h3>About DaktariSasa (DS)</h3>
+                        <p>
+                            We make  your health a priority by becoming the doctor you always wanted,
+                            you can be helped as quick as now. <br><br> Our biggest agenda as DaktariSasa, is to offer consultancy services
+                            as best as we can to try solve the
+                            menace of traveling for long distance for medical consultantcy care.
+                            We believe, in Africa especially, most patients would wish to talk
+                            to their respective doctors at the comfort of their home without using lots
+                            of money to travel for the same services.
+                            <br> <br>
+                            This is the reason why, a team of specialists from varied health care institutions from africa, haveddecided
+                            to come together in a platform know as DaktariSasa to help make health care easy to acquire as long as you can trust
+                            and abide by the terms of the platform.
+                        </p>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-handshake"></i></div>
+                            <h4 class="title"><a href="#"></a>Partnerships</h4>
+                            <p class="description">
+                                We've partnered with both government owned and private health care institutions to
+                                offer the best services through online live appointments with real doctors and healthcare specialists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-box">
+                            <i class="fas fa-user-md"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Doctors</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                        <div class="count-box">
+                            <i class="fa-sharp fa-solid fa-code-branch"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Departments</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="far fa-hospital"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Partner Health centers</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="fas fa-award"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Awards</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Counts Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Services</h2>
+                    <p>At DaktariSasa, we offer the following core services plus others which you'll found out the more you interact with us.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                            <h4><a href="">Consultancy</a></h4>
+                            <p>
+                                Our biggest agenda as DaktariSasa, is to offer consultancy services to as best as we can to solve the
+                                issue of travels for long distance for medical consultantcy. We believe, most patients would wish to talk
+                                to their respective doctors at the comfort of their home without using lots of money to travel for the same.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-pills"></i></div>
+                            <h4><a href="">Referrals</a></h4>
+                            <p>
+                                We refer our patients to hospitals that we as DaktariSasa have patnered with all
+                                over the country and abroad
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-hospital-user"></i></div>
+                            <h4><a href="">Health Information</a></h4>
+                            <p>
+                                Through our <a href="#">health digest</a> written by qualified specialists in the
+                                respective fields of medicine, you can know how to live healthy and also the steps to take
+                                in case of an ailment discussed.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-dna"></i></div>
+                            <h4><a href="">Emergencies</a></h4>
+                            <p>
+                                At DaktariSasa, we have patnered with
+                                quick responsive teams with ambulances who can transport
+                                you or your loved one to the nearest
+                                healthcare facility where you can meet your doctor or a health care specialist.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                      <div class="icon-box">
+                        <div class="icon"><i class="fas fa-wheelchair"></i></div>
+                        <h4><a href="">Follow ups</a></h4>
+                        <p>We make sure that our clients are well served and they are contented with the kind of service they requested by making 
+                            follow up check ups on each and every one of them
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                      <div class="icon-box">
+                        <div class="icon"><i class="fas fa-notes-medical"></i></div>
+                        <h4><a href="">Divera don</a></h4>
+                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                      </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <!-- ======= Departments Section ======= -->
+        <section id="departments" class="departments">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Departments</h2>
+                    <p>In this platform, there are varied departments where our services is based. They include</p>
+                </div>
+
+                <div class="row gy-4">
+                    <div class="col-lg-3">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hematology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="tab-1">
+                                <div class="row gy-4">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Cardiology</h3>
+                                        <p class="fst-italic">This department includes experts on the heart and blood vessels</p>
+                                        <p>You should see them incase of a heart failure, a heart attack, high blood pressure, or an irregular heartbeat.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="../wwwroot/img/departments-1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-2">
+                                <div class="row gy-4">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Neurology</h3>
+                                        <p class="fst-italic">This Department has specialists who deal with the nervous system</p>
+                                        <p>This includes the brain, spinal cord, and nerves. They treat strokes, brain and spinal tumors, epilepsy, Parkinson's disease, and Alzheimer's disease.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="../wwwroot/img/departments-2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-3">
+                                <div class="row gy-4">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Hematology</h3>
+                                        <p class="fst-italic">This is a department specializing in diseases of the blood, spleen, and lymph glands</p>
+                                        <p>Diseases that are tackled in this department include sickle cell disease, anemia, hemophilia, and leukemia.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="../wwwroot/img/departments-3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-4">
+                                <div class="row gy-4">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Pediatrics</h3>
+                                        <p class="fst-italic">This department is made of specialists who care for children from birth to young adulthood</p>
+                                        <p>Some pediatricians specialize in pre-teens and teens, child abuse, or children's developmental issues.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="../wwwroot/img/departments-4.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-5">
+                                <div class="row gy-4">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Eye care</h3>
+                                        <p class="fst-italic">Can also be referred as Optic departments</p>
+                                        <p>
+                                            These department is comprised of specialists who take care of the eye and any other ailments that may arise
+                                            due to use of light to the eye. They also major in curing mild/artificial blindness of the eye.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="../wwwroot/img/departments-5.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Departments Section -->
+        <!-- ======= Doctors Section ======= -->
+        <section id="doctors" class="doctors">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Doctors</h2>
+                    <p>Here is the list of health care specialist you'll have a chance to meet</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="#" class="img-fluid" alt="image"></div>
+                            <div class="member-info">
+                                <h4>Walter Mutiso</h4>
+                                <span>Chief Medical Officer</span>
+                                <p>
+                                    Hello there, welcome to DaktariSasa and I wish for a chance to meet you already.
+                                    Lets link up and lets keep you in check.
+                                </p>
+                                <div class="social">
+                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                                    <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="#" class="img-fluid" alt="image"></div>
+                            <div class="member-info">
+                                <h4>Sarah Kiarie</h4>
+                                <span>Neurosurgeon</span>
+                                <p>Book an appointment now lets get your brain in check</p>
+                                <div class="social">
+                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                                    <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="#" class="img-fluid" alt="image"></div>
+                            <div class="member-info">
+                                <h4>William Anderson</h4>
+                                <span>Cardiology</span>
+                                <p>
+                                    For every ailment related to the heart and blood circulation, I plus the help of my fellow colleague shall be
+                                    here for you till your blood circulation is maintained to your normal.
+                                </p>
+                                <div class="social">
+                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                                    <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="#" class="img-fluid" alt="image"></div>
+                            <div class="member-info">
+                                <h4>Millicent Mutai</h4>
+                                <span>Pediatrician</span>
+                                <p>Every kid out here deserves a better health care. Let's help them together</p>
+                                <div class="social">
+                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                                    <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End of Doctors Section -->
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <section id="faq" class="faq section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Here are some of the frequently asked questions</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">In-patient <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    Are there in-patient services?
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Physical meet-up<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    How do I book for a one-on-one appointment?
+                                </p>
+                            </div>
+                        </li>
+
+                        <!-- <li data-aos="fade-up" data-aos-delay="200">
+                          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            </p>
+                          </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                            </p>
+                          </div>
+                        </li> -->
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Physical Hospital<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Is DaktariSasa a physical hospital?
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section><!-- End Frequently Asked Questions Section -->
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <!-- <img src="../wwwroot/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                                    <h3>Vic Yegon</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        DaktariSasa is great. It has really booosted the delivery of medical services especially reduced traffic at the consultation queues.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+                                    <h3>Sara Wanjiru</h3>
+                                    <h4>Designer</h4>
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        DSS is easy to get acquinted to and its client friendly. Can run in any device at any time.
+                                        Visit the platform and lets get healthy all the time at the comfort of your home.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <!-- <img src="../wwwroot/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
+                                    <h3>Ester Shah</h3>
+                                    <h4>Store Owner</h4>
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        DaktariSasa is nice and efficient. I enjoy interacting with the doctors who in turn are very hospitable and kind.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <!-- <img src="../wwwroot/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
+                                    <h3>Matt</h3>
+                                    <h4>Freelancer</h4>
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        At DaktariSasa, my health is at check everytime. This makes me efficient all day 24/7.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <!-- <img src="../wwwroot/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+                                    <h3>Johnte</h3>
+                                    <h4>Entrepreneur</h4>
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        Hii DaktariSasa imenisaidia sana kufanya kazi bila wasiwasi mwingi,
+                                        na nashukuru kwa madaktari wote ambao wanajipea mda mbadala kushugulikia yeyote ule hakuweza kufika
+                                        katika hospitali.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Gallery of activity</h2>
+                    <p>This is some of the snapshots of what goes on in the research labs, offices and while taking care of our in-patient clients/patients</p>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row g-0">
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-1.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-2.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-3.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-4.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-5.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-6.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-7.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="../wwwroot/img/gallery/gallery-8.jpg" class="galelry-lightbox">
+                                <img src="../wwwroot/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Gallery Section -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Get in touch and enjoy being helped by being informed on what to do by specialists both locally and internationally</p>
+                </div>
+            </div>
+
+            <!-- <div>
+              <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+            </div> -->
+
+            <div class="container">
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>No physical location</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>vkosgei37@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+254 759695912</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>DaktariSasa</h3>
+                        <strong>Phone:</strong> 0759695912<br>
+                        <strong>Email:</strong> vkosgei37@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                       
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="../Pages/Appointment.cshtml">Book appointment</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Register</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Doctor quotes</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Health Digest</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Don't miss out in the weekly DaktariSasa newsletter.</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>DaktariSasa 2023</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="https://www.vicyegon.netlify.app/">vicYegon</a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../wwwroot/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../wwwroot/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../wwwroot/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../wwwroot/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../wwwroot/js/main.js"></script>
+
+</body>
+
+</html>

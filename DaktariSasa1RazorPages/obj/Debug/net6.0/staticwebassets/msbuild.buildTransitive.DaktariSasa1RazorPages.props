@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DaktariSasa1RazorPages.props" />
+</Project>

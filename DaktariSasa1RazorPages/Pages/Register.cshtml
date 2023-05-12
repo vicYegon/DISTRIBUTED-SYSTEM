@@ -1,0 +1,43 @@
+﻿@page
+@model DaktariSasa1RazorPages.Pages.RegisterModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../wwwroot/css/login-signup.css">
+
+    <title>Create DaktariSasa account</title>
+
+</head>
+<body>
+    <div class="container">
+        <h2 class="login_header">Register</h2>
+        <div class="login_info">
+            <div class="info">
+                <h2>Welcome to DaktariSasa</h2>
+                <p>Let's make your health better</p>
+            </div>
+
+            <div class="form_side">
+                <form class="login_form">
+                    <input type="text" placeholder="Full name">
+                    <input type="text" placeholder="e.g someone@example.com">
+                    <input type="text" placeholder="Address e.g Nairobi">
+                    <input type="text" placeholder="Role e.g Patient, Doctor, Interested viewer">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm password">
+                </form>
+                <button>Register</button>
+                <p>Already a member?<a href="../Pages/Login.cshtml">  Login Here</a></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
