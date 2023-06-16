@@ -17,7 +17,7 @@ Doctors can:-
 #### Appointment Scheduling 
 Patients can:- 
 - View a list of available doctors 
-- Select a doctor 
+- Select a Doctor 
 - Schedule an appointment with the selected doctor.
 
 #### Video Consultation 
@@ -31,20 +31,22 @@ Patients can pay for appointments and medication through the app using a credit 
 - Django Rest Framework
 - ASP.NET Razor Pages
 - MySQL
+- Bootstrap5
 - HTML/CSS/JavaScript
 
 ## Installation and Usage
 - Clone the repository to your local machine.
-- Set up a virtual environment for the Django backend and install the necessary packages using pip install -r requirements.txt.
+- Set up a virtual environment for the Django backend and install the necessary packages using `pip install -r requirements.txt`
 - Create a MySQL database and run the migrations using python manage.py migrate.
-- Create a superuser account for the Django backend using python manage.py createsuperuser.
-- Start the Django backend server using python manage.py runserver.
+- Create a superuser account for the Django backend using `python manage.py createsuperuser`
+- Start the Django backend server using `python manage.py runserver`
 - Open the ASP.NET Razor Pages project in Visual Studio and set up the database connection to the same MySQL database.
-- Start the ASP.NET Razor Pages frontend server.
+- Start the ASP.NET Razor Pages frontend server
 - Navigate to `http://localhost:8000` in your web browser to access the app.
 
 ## Future Work
 - Implement more robust payment processing using a third-party service.
+- Efficient appointment booking for the patient.
 - Implement chat functionality for patients and doctors to communicate outside of appointments.
 - Allow patients to rate and provide feedback on doctors after appointments.
 - Implement Daraja api as a payment gateway.
